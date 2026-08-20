@@ -1,0 +1,10 @@
+﻿global using StreamVibe.Domain.Entities;
+global using Microsoft.EntityFrameworkCore;
+global using MediatR;
+global using StreamVibe.Application.Common.Dtos;
+global using AutoMapper;
+global using StreamVibe.Application.Common.Interfaces;
+global using ZiggyCreatures.Caching.Fusion;
+global using Microsoft.Extensions.DependencyInjection;
+global using StreamVibe.Application.Common.Mapper;
+global using StreamVibe.Domain.Enums;

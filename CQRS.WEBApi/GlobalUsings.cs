@@ -1,0 +1,11 @@
+﻿global using StreamVibe.Infrastructure;
+global using StreamVibe.Application;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using StreamVibe.Application.Common.Dtos;
+global using StreamVibe.Application.Common.Response;
+global using StreamVibe.Application.Features.Devices.Queries.GetAllDevices;
+global using StreamVibe.Application.Features.Genres.Queries.GetAllGenres;
+global using StreamVibe.Domain.Enums;
+global using StreamVibe.Application.Features.Faqs.Queries.GetAllFaqs;
+global using StreamVibe.Application.Features.Plans.Queries.GetPricingPlans;

@@ -1,0 +1,12 @@
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\bin\Debug\net10.0\CQRS.Infrastructure.deps.json
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\bin\Debug\net10.0\CQRS.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\bin\Debug\net10.0\CQRS.Infrastructure.pdb
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\CQRS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\CQRS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\CQRS.Infrastructure.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\CQRS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\CQRS.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\refint\CQRS.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\CQRS.Infrastructure.pdb
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\ref\CQRS.Infrastructure.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Infrastructure\obj\Debug\net10.0\CQRS.Inf.73B3A6BF.Up2Date

@@ -1,0 +1,24 @@
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.deps.json
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.pdb
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\refint\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.pdb
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\ref\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\Yoxlama\CQRS.Demo\CQRS.Domain\obj\Debug\net10.0\StreamVi.9ADC604B.Up2Date
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.AssemblyInfo.cs
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\refint\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVibe.Domain.pdb
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.deps.json
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.pdb
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\ref\StreamVibe.Domain.dll
+C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVi.9ADC604B.Up2Date

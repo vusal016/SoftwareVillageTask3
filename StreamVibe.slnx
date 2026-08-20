@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Application/">
+    <Project Path="CQRS.Application/StreamVibe.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Domain/">
+    <Project Path="CQRS.Domain/StreamVibe.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="CQRS.Infrastructure/StreamVibe.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="CQRS.WEBApi/StreamVibe.WEBApi.csproj" />
+  </Folder>
+</Solution>

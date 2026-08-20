@@ -1,0 +1,9 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using StreamVibe.Application.Common.Interfaces;
+global using StreamVibe.Domain.Entities;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using StreamVibe.Infrastructure.Data;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using StreamVibe.Domain.Enums;
+global using Npgsql;

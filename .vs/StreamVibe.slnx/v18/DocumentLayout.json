@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\landingpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\landingpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LandingPageController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:24:08.666Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

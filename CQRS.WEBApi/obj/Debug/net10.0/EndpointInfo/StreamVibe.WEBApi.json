@@ -1,0 +1,95 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "StreamVibe.WEBApi | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7020"
+    },
+    {
+      "url": "http://localhost:5000"
+    }
+  ],
+  "paths": {
+    "/api/LandingPage/devices": {
+      "get": {
+        "tags": [
+          "LandingPage"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LandingPage/genres": {
+      "get": {
+        "tags": [
+          "LandingPage"
+        ],
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/GenreType"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LandingPage/faqs": {
+      "get": {
+        "tags": [
+          "LandingPage"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/LandingPage/plans": {
+      "get": {
+        "tags": [
+          "LandingPage"
+        ],
+        "parameters": [
+          {
+            "name": "billing",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GenreType": {
+        "type": "integer"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "LandingPage"
+    }
+  ]
+}

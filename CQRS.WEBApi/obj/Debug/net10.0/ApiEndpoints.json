@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.LandingPageController",
+    "Method": "GetAllDevices",
+    "RelativePath": "api/LandingPage/devices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.LandingPageController",
+    "Method": "GetAllFaqs",
+    "RelativePath": "api/LandingPage/faqs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.LandingPageController",
+    "Method": "GetAllGenres",
+    "RelativePath": "api/LandingPage/genres",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.Nullable\u00601[[StreamVibe.Domain.Enums.GenreType, StreamVibe.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.LandingPageController",
+    "Method": "GetAllPricingPlans",
+    "RelativePath": "api/LandingPage/plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billing",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
