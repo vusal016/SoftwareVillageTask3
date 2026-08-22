@@ -11,7 +11,7 @@
             var response=Response<List<DeviceDto>>.Success(devices, 200);
             return Ok(response);
         }
-        [HttpGet("genres")]
+        [HttpGet("genres    ")]
         public async Task<IActionResult> GetAllGenres(GenreType? type,CancellationToken cancellationToken)
         {
             var genres = await mediator.Send(new GetAllGenresQuery(type), cancellationToken);

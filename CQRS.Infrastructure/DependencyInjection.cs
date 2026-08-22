@@ -7,7 +7,10 @@
             services.AddDbContext<StreamDb>(options =>
                  options.UseNpgsql(
                      configuration.GetConnectionString("DefaultConnection"),
-                     o => o.MapEnum<GenreType>("type_genre", "public")
+                     o => {
+                         o.MapEnum<GenreType>("type_genre", "public");
+                         o.MapEnum<ContentType>("type_content", "public");
+                     }
                    )
              );
             services.AddScoped<IStreamDb, StreamDb>();

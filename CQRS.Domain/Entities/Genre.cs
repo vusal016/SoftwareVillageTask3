@@ -23,6 +23,7 @@
         public string CoverImage_2 { get;private set; }
         public string CoverImage_3 { get;private set; }
         public string CoverImage_4 { get;private set; }
+        public ICollection<ContentGenres> ContentGenres { get; private set; } = [];
 
         private void SetName(string name)
         {

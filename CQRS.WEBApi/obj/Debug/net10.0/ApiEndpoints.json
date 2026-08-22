@@ -1,5 +1,73 @@
 [
   {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
+    "Method": "GetAllContents",
+    "RelativePath": "api/Content",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.Nullable\u00601[[StreamVibe.Domain.Enums.ContentType, StreamVibe.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
+    "Method": "GetOurGenres",
+    "RelativePath": "api/Content/genres",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.Nullable\u00601[[StreamVibe.Domain.Enums.GenreType, StreamVibe.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
+    "Method": "GetHeroContents",
+    "RelativePath": "api/Content/hero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
+    "Method": "GetTopTenRankContents",
+    "RelativePath": "api/Content/top-ten",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.Nullable\u00601[[StreamVibe.Domain.Enums.ContentType, StreamVibe.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "StreamVibe.WEBApi.Controllers.LandingPageController",
     "Method": "GetAllDevices",
     "RelativePath": "api/LandingPage/devices",
@@ -22,7 +90,7 @@
   {
     "ContainingType": "StreamVibe.WEBApi.Controllers.LandingPageController",
     "Method": "GetAllGenres",
-    "RelativePath": "api/LandingPage/genres",
+    "RelativePath": "api/LandingPage/genres    ",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

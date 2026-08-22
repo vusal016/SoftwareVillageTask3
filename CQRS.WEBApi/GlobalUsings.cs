@@ -9,3 +9,7 @@ global using StreamVibe.Application.Features.Genres.Queries.GetAllGenres;
 global using StreamVibe.Domain.Enums;
 global using StreamVibe.Application.Features.Faqs.Queries.GetAllFaqs;
 global using StreamVibe.Application.Features.Plans.Queries.GetPricingPlans;
+global using StreamVibe.Application.Features.Contents.Queries.GetAllContents;
+global using StreamVibe.Application.Features.Contents.Queries.GetAllContentForHero;
+global using StreamVibe.Application.Features.Genres.Queries.GetOurGenres;
+global using StreamVibe.Application.Features.Contents.Queries.GetTopTenRankContents;

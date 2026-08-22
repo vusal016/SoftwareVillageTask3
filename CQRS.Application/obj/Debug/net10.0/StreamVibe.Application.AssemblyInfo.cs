@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamVibe.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90e7955f63491b26f955f90aca90d9045892a87b")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamVibe.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamVibe.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
