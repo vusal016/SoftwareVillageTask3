@@ -8,6 +8,11 @@
         DbSet<PricingPlan> PricingPlans { get; set; }
         DbSet<Content> Contents { get; set; }
         DbSet<ContentGenres> ContentGenres { get; set; }
+        DbSet<ContentLanguages> ContentLanguages { get; set; }
+        DbSet<People> Peoples { get; set; }
+        DbSet<Seasons> Seasons { get; set; }
+        DbSet<Episodes> Episodes { get; set; }
+        DbSet<Reviews> Reviews { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }

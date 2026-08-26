@@ -13,3 +13,6 @@ global using StreamVibe.Application.Features.Contents.Queries.GetAllContents;
 global using StreamVibe.Application.Features.Contents.Queries.GetAllContentForHero;
 global using StreamVibe.Application.Features.Genres.Queries.GetOurGenres;
 global using StreamVibe.Application.Features.Contents.Queries.GetTopTenRankContents;
+global using StreamVibe.Application.Features.Contents.Queries.GetAllContentDetail;
+global using StreamVibe.Application.Features.Contents.Queries.GetContentSeasons;
+global using StreamVibe.Application.Features.Contents.Queries.GetAllContentReviews;

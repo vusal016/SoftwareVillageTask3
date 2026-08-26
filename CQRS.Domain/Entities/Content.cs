@@ -39,7 +39,11 @@
         public bool IsFeatured { get; private set; }
         public int? TopTenRank { get; private set; }
         public DateTime CreatedAt { get; private set; }
+        public ICollection<ContentPeople> ContentPeople { get; private set; } = [];
+        public ICollection<ContentLanguages> ContentLanguages { get; private set; } = [];
         public ICollection<ContentGenres> ContentGenres { get; private set; } = [];
+        public ICollection<Seasons> Seasons { get; private set; } = [];
+        public ICollection<Reviews> Reviews { get; private set; } = [];
 
         private void SetTitle(string title)
         {

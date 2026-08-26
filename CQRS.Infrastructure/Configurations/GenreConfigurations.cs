@@ -1,6 +1,6 @@
 ﻿namespace StreamVibe.Infrastructure.Configurations
 {
-    public sealed class GenreConfiguration : IEntityTypeConfiguration<Genre>
+    public sealed class GenreConfigurations : IEntityTypeConfiguration<Genre>
     {
         public void Configure(EntityTypeBuilder<Genre> builder)
         {

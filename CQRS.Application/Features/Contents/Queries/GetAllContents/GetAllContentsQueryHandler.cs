@@ -5,7 +5,7 @@
         public async Task<List<ContentDto>> Handle(GetAllContentsQuery request, CancellationToken cancellationToken)
         {
             return await cache.GetOrSetAsync(
-                $"get-all-contents-{request.Type}-{request.Filter}-{request.Limit}",
+                $"get_all_contents_{request.Type}_{request.Filter}_{request.Limit}",
                 async token =>
                 {
                     var contents = streamDb.Contents.AsNoTracking().AsQueryable();

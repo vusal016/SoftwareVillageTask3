@@ -5,7 +5,7 @@
         public async Task<List<OurGenresDto>> Handle(GetOurGenresQuery request, CancellationToken cancellationToken)
         {
             return await cache.GetOrSetAsync(
-                $"GetOurGenresQueryHandler_{request.Type}",
+                $"get_our_genres_{request.Type}",
                 async token => 
                 {
                     var ourGenres = streamDb.Genres.AsNoTracking().AsQueryable();

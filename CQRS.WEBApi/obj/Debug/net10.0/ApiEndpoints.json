@@ -27,6 +27,54 @@
   },
   {
     "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
+    "Method": "GetContentDetail",
+    "RelativePath": "api/Content/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
+    "Method": "GetContentReviews",
+    "RelativePath": "api/Content/{id}/reviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
+    "Method": "GetContentSeasons",
+    "RelativePath": "api/Content/{id}/seasons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.ContentController",
     "Method": "GetOurGenres",
     "RelativePath": "api/Content/genres",
     "HttpMethod": "GET",

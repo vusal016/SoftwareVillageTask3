@@ -10,6 +10,7 @@
                      o => {
                          o.MapEnum<GenreType>("type_genre", "public");
                          o.MapEnum<ContentType>("type_content", "public");
+                         o.MapEnum<RoleType>("type_content_people", "public");
                      }
                    )
              );

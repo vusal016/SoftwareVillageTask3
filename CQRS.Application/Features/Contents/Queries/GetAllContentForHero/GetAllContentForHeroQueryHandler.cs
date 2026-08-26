@@ -5,7 +5,7 @@
         public async Task<List<HeroContentDto>> Handle(GetAllContentForHeroQuery request, CancellationToken cancellationToken)
         {
             return await cache.GetOrSetAsync(
-                "GetAllContentForHeroQuery",
+                "get_all_content_for_hero",
                async token => 
                {
                    var contents = await streamDb.Contents

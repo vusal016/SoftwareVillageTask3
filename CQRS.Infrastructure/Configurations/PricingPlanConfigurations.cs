@@ -1,6 +1,6 @@
 ﻿namespace StreamVibe.Infrastructure.Configurations
 {
-    public sealed class PricingPlanConfiguration : IEntityTypeConfiguration<PricingPlan>
+    public sealed class PricingPlanConfigurations : IEntityTypeConfiguration<PricingPlan>
     {
         public void Configure(EntityTypeBuilder<PricingPlan> builder)
         {

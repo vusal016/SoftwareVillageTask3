@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamVibe.WEBApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90e7955f63491b26f955f90aca90d9045892a87b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+734c777fae0369b6ff017f89c525c66394685b24")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamVibe.WEBApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamVibe.WEBApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

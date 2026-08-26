@@ -32,5 +32,26 @@
             var response = Response<List<TopTenContentDto>>.Success(contents, 200);
             return Ok(response);
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetContentDetail(string id)
+        {
+            var content = await mediator.Send(new GetAllContentDetailQuery(id));
+            var response = Response<ContentDetailDto>.Success(content, 200);
+            return Ok(response);
+        }
+        [HttpGet("{id}/seasons")]
+        public async Task<IActionResult> GetContentSeasons(string id)
+        {
+            var seasons = await mediator.Send(new GetContentSeasonsQuery(id));
+            var response = Response<List<SeasonDto>>.Success(seasons, 200);
+            return Ok(response);
+        }
+        [HttpGet("{id}/reviews")]
+        public async Task<IActionResult> GetContentReviews(string id)
+        {
+            var reviews = await mediator.Send(new GetAllContentReviewsQuery(id));
+            var response = Response<List<ContentReviewDto>>.Success(reviews, 200);
+            return Ok(response);
+        }
     }
 }

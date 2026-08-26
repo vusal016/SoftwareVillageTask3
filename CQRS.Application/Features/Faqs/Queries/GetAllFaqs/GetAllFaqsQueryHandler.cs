@@ -5,7 +5,7 @@
         public async Task<List<FaqDto>> Handle(GetAllFaqsQuery request, CancellationToken cancellationToken)
         {
             return await cache.GetOrSetAsync(
-                "GetAllFaqsQuery",
+                "get_all_faqs",
                 async token => {
                 var faqs = await streamDb.Faqs
                     .AsNoTracking()

@@ -1,6 +1,6 @@
 ﻿namespace StreamVibe.Infrastructure.Configurations
 {
-    public sealed class DeviceConfiguration : IEntityTypeConfiguration<Device>
+    public sealed class DeviceConfigurations : IEntityTypeConfiguration<Device>
     {
         public void Configure(EntityTypeBuilder<Device> builder)
         {

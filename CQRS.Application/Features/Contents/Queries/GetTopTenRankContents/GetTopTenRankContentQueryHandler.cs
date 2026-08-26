@@ -5,7 +5,7 @@
         public async Task<List<TopTenContentDto>> Handle(GetTopTenRankContentQuery request, CancellationToken cancellationToken)
         {
             return await cache.GetOrSetAsync(
-                $"GetTopTenRankContentQuery_{request.Type}",
+                $"get_top_ten_rank_contents_{request.Type}",
                 async token => {
                     var topTenRank = streamDb.Contents.AsNoTracking().AsQueryable();
                     topTenRank= request.Type switch

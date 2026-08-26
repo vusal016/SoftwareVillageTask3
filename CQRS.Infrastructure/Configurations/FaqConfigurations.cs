@@ -1,6 +1,6 @@
 ﻿namespace StreamVibe.Infrastructure.Configurations
 {
-    public sealed class FaqConfiguration : IEntityTypeConfiguration<Faq>
+    public sealed class FaqConfigurations : IEntityTypeConfiguration<Faq>
     {
         public void Configure(EntityTypeBuilder<Faq> builder)
         {
