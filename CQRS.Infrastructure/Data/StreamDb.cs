@@ -13,6 +13,8 @@
         public DbSet<Seasons> Seasons { get; set; }
         public DbSet<Episodes> Episodes { get; set; }
         public DbSet<Reviews> Reviews { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -20,10 +22,9 @@
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(StreamDb).Assembly);
         }
 
-        public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            //Hele implement etmemisem novbeti tasklarda istifade edecem
-            return base.SaveChangesAsync(cancellationToken);
+            return await base.SaveChangesAsync(cancellationToken);
         }
     }
 }

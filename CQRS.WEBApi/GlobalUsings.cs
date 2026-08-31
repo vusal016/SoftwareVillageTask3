@@ -16,3 +16,7 @@ global using StreamVibe.Application.Features.Contents.Queries.GetTopTenRankConte
 global using StreamVibe.Application.Features.Contents.Queries.GetAllContentDetail;
 global using StreamVibe.Application.Features.Contents.Queries.GetContentSeasons;
 global using StreamVibe.Application.Features.Contents.Queries.GetAllContentReviews;
+global using StreamVibe.WEBApi.Middleware;
+global using System.Text.Json.Serialization;
+global using StreamVibe.Application.Features.Register;
+global using StreamVibe.Application.Features.Login;

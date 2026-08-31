@@ -31,6 +31,7 @@
             CreateMap<Seasons, SeasonDto>()
                 .ForCtorParam("Episodes", opt => opt.MapFrom(src => src.Episodes));
             CreateMap<Reviews, ContentReviewDto>();
+            CreateMap<User, UserDto>();
         }
     }
 }

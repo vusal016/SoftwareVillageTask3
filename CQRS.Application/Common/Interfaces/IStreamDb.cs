@@ -13,6 +13,8 @@
         DbSet<Seasons> Seasons { get; set; }
         DbSet<Episodes> Episodes { get; set; }
         DbSet<Reviews> Reviews { get; set; }
+        DbSet <User> Users { get; set; }
+        DbSet<RefreshToken> RefreshTokens { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }

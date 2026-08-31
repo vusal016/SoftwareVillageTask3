@@ -9,7 +9,7 @@
                 async token =>
                 {
                     var genres = streamDb.Genres.AsNoTracking().AsQueryable();
-                    if (request.Type.HasValue && !Enum.IsDefined(request.Type.Value)) throw new ArgumentException($"Invalid genre type: {request.Type.Value}");
+                    if (request.Type.HasValue && !Enum.IsDefined(request.Type.Value)) throw new ArgumentException($"Invalid genre type:");
                     if (request.Type == GenreType.Movie)
                         genres = genres.Where(g => g.Type == GenreType.Movie);
                     else if (request.Type == GenreType.Show)

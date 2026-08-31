@@ -3,88 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\contents\\queries\\getallcontentreviews\\getallcontentreviewsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\contents\\queries\\getallcontentreviews\\getallcontentreviewsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\contents\\queries\\getcontentseasons\\getcontentseasonsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\contents\\queries\\getcontentseasons\\getcontentseasonsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\contents\\queries\\getcontentseasons\\getcontentseasonsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\contents\\queries\\getcontentseasons\\getcontentseasonsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\contents\\queries\\getallcontents\\getallcontentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\contents\\queries\\getallcontents\\getallcontentsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\contents\\queries\\getallcontentdetail\\getallcontentdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\contents\\queries\\getallcontentdetail\\getallcontentdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\contents\\queries\\getallcontentreviews\\getallcontentreviewsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\contents\\queries\\getallcontentreviews\\getallcontentreviewsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\mapper\\streamprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\mapper\\streamprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\contentreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\contentreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.infrastructure\\configurations\\episodesconfugurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|solutionrelative:cqrs.infrastructure\\configurations\\episodesconfugurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.infrastructure\\configurations\\reviewsconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|solutionrelative:cqrs.infrastructure\\configurations\\reviewsconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.infrastructure\\configurations\\seasonsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|solutionrelative:cqrs.infrastructure\\configurations\\seasonsconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\episodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\episodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\seasons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\seasons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\seasondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\seasondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\episodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\episodedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\interfaces\\istreamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\interfaces\\istreamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.infrastructure\\data\\streamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|solutionrelative:cqrs.infrastructure\\data\\streamdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\content.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,110 +54,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetAllContentsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContents\\GetAllContentsQueryHandler.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContents\\GetAllContentsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContents\\GetAllContentsQueryHandler.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContents\\GetAllContentsQueryHandler.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T10:11:40.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllContentReviewsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQueryHandler.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQueryHandler.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQueryHandler.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA9wAsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T08:50:21.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ContentReviewDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\ContentReviewDto.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\ContentReviewDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\ContentReviewDto.cs",
-              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\ContentReviewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T08:45:36.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "GetAllContentReviewsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQuery.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQuery.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQuery.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContentReviews\\GetAllContentReviewsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\GlobalUsings.cs",
+              "RelativeToolTip": "CQRS.Application\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T08:39:34.951Z",
+              "WhenOpened": "2026-08-31T12:18:47.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "CQRS.WEBApi\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs",
-              "RelativeToolTip": "CQRS.WEBApi\\GlobalUsings.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "ForbiddenException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Exceptions\\ForbiddenException.cs",
+              "RelativeDocumentMoniker": "CQRS.Domain\\Exceptions\\ForbiddenException.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Exceptions\\ForbiddenException.cs",
+              "RelativeToolTip": "CQRS.Domain\\Exceptions\\ForbiddenException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T08:09:42.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContentController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\ContentController.cs",
-              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\ContentController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\ContentController.cs",
-              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\ContentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T08:08:54.954Z",
+              "WhenOpened": "2026-08-31T12:15:22.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "StreamProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "RelativeToolTip": "CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAABAAAAAAAAAA==",
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Middleware\\GlobalExceptionHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\Middleware\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAzwBIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T08:07:38.684Z",
+              "WhenOpened": "2026-08-31T11:51:58.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GetAllContentDetailQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContentDetail\\GetAllContentDetailQueryHandler.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContentDetail\\GetAllContentDetailQueryHandler.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetAllContentDetail\\GetAllContentDetailQueryHandler.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\Contents\\Queries\\GetAllContentDetail\\GetAllContentDetailQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Register\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Register\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Register\\RegisterCommand.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Register\\RegisterCommand.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T07:55:44.869Z",
+              "WhenOpened": "2026-08-31T11:48:25.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:45:52.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Register\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Register\\RegisterCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Register\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Register\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:19:55.53Z",
               "EditorCaption": ""
             },
             {
@@ -206,171 +140,66 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T11:19:23.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "CQRS.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T07:18:50.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetContentSeasonsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQueryHandler.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQueryHandler.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs*",
+              "RelativeToolTip": "CQRS.WEBApi\\GlobalUsings.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T07:11:20.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetContentSeasonsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQuery.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQuery.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQuery.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\Contents\\Queries\\GetContentSeasons\\GetContentSeasonsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T06:40:34.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EpisodeDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\EpisodeDto.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\EpisodeDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\EpisodeDto.cs",
-              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\EpisodeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T06:39:14.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SeasonDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\SeasonDto.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\SeasonDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\SeasonDto.cs",
-              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\SeasonDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T06:33:10.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReviewsConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\ReviewsConfigurations.cs",
-              "RelativeDocumentMoniker": "CQRS.Infrastructure\\Configurations\\ReviewsConfigurations.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\ReviewsConfigurations.cs",
-              "RelativeToolTip": "CQRS.Infrastructure\\Configurations\\ReviewsConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T06:13:16.966Z",
+              "WhenOpened": "2026-08-30T06:57:52.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Reviews.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Reviews.cs",
-              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\Reviews.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Reviews.cs",
-              "RelativeToolTip": "CQRS.Domain\\Entities\\Reviews.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA0AAAAeAAAAAAAAAA==",
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T06:03:48.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-30T06:55:48.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EpisodesConfugurations.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\EpisodesConfugurations.cs",
-              "RelativeDocumentMoniker": "CQRS.Infrastructure\\Configurations\\EpisodesConfugurations.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\EpisodesConfugurations.cs",
-              "RelativeToolTip": "CQRS.Infrastructure\\Configurations\\EpisodesConfugurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T05:57:59.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Episodes.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Episodes.cs",
-              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\Episodes.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Episodes.cs",
-              "RelativeToolTip": "CQRS.Domain\\Entities\\Episodes.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T05:48:49.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SeasonsConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\SeasonsConfiguration.cs",
-              "RelativeDocumentMoniker": "CQRS.Infrastructure\\Configurations\\SeasonsConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\SeasonsConfiguration.cs",
-              "RelativeToolTip": "CQRS.Infrastructure\\Configurations\\SeasonsConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:58:41.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StreamDb.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Data\\StreamDb.cs",
-              "RelativeDocumentMoniker": "CQRS.Infrastructure\\Data\\StreamDb.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Data\\StreamDb.cs",
-              "RelativeToolTip": "CQRS.Infrastructure\\Data\\StreamDb.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:58:01.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IStreamDb.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Interfaces\\IStreamDb.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Interfaces\\IStreamDb.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Interfaces\\IStreamDb.cs",
-              "RelativeToolTip": "CQRS.Application\\Common\\Interfaces\\IStreamDb.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:55:37.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Content.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Content.cs",
-              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\Content.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Content.cs",
-              "RelativeToolTip": "CQRS.Domain\\Entities\\Content.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwC0AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:29:04.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Seasons.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Seasons.cs",
-              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\Seasons.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\Seasons.cs",
-              "RelativeToolTip": "CQRS.Domain\\Entities\\Seasons.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T21:22:10.135Z",
+              "WhenOpened": "2026-08-30T06:53:11.975Z",
               "EditorCaption": ""
             }
           ]

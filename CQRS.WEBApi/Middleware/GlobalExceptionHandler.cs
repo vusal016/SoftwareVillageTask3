@@ -1,4 +1,6 @@
-﻿namespace StreamVibe.WEBApi.Middleware
+﻿using StreamVibe.Domain.Exceptions;
+
+namespace StreamVibe.WEBApi.Middleware
 {
     public sealed class GlobalExceptionHandler(RequestDelegate next)
     {
@@ -12,6 +14,8 @@
             {
                 int statusCode = ex switch
                 {
+                    UnauthorizedAccessException => 401,
+                    ForbiddenException => 403,
                     ArgumentException => 400,
                     KeyNotFoundException => 404,
                     InvalidOperationException => 409,

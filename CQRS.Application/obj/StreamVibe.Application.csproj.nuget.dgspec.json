@@ -81,6 +81,7 @@
           "centralPackageVersions": {
             "AutoMapper": "16.2.0",
             "MediatR": "14.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.11",
             "Microsoft.AspNetCore.OpenApi": "10.0.11",
             "Microsoft.EntityFrameworkCore": "10.0.4",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3",
@@ -431,6 +432,7 @@
           "centralPackageVersions": {
             "AutoMapper": "16.2.0",
             "MediatR": "14.2.0",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.11",
             "Microsoft.AspNetCore.OpenApi": "10.0.11",
             "Microsoft.EntityFrameworkCore": "10.0.4",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3",

@@ -1,6 +1,3 @@
-using StreamVibe.WEBApi.Middleware;
-using System.Text.Json.Serialization;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -37,6 +34,8 @@ app.UseHttpsRedirection();
 app.UseCors("AllowFrontend");
 
 app.UseMiddleware<GlobalExceptionHandler>();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
