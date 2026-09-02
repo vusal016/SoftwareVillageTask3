@@ -1,6 +1,4 @@
-﻿using StreamVibe.Domain.Exceptions;
-
-namespace StreamVibe.WEBApi.Middleware
+﻿namespace StreamVibe.WEBApi.Middleware
 {
     public sealed class GlobalExceptionHandler(RequestDelegate next)
     {
