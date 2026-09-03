@@ -323,7 +323,7 @@
         }
       }
     },
-    "/api/LandingPage/genres    ": {
+    "/api/LandingPage/genres": {
       "get": {
         "tags": [
           "LandingPage"
@@ -370,6 +370,38 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Support/contact": {
+      "post": {
+        "tags": [
+          "Support"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendContactMessagesCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendContactMessagesCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendContactMessagesCommand"
+              }
+            }
+          },
+          "required": true
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -441,6 +473,37 @@
             "type": "string"
           }
         }
+      },
+      "SendContactMessagesCommand": {
+        "required": [
+          "firstName",
+          "lastName",
+          "email",
+          "phoneCountryCode",
+          "phoneNumber",
+          "message"
+        ],
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "phoneCountryCode": {
+            "type": "string"
+          },
+          "phoneNumber": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
       }
     }
   },
@@ -453,6 +516,9 @@
     },
     {
       "name": "LandingPage"
+    },
+    {
+      "name": "Support"
     }
   ]
 }

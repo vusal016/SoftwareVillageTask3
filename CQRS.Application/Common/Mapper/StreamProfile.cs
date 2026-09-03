@@ -1,4 +1,6 @@
-﻿namespace StreamVibe.Application.Common.Mapper
+﻿using StreamVibe.Application.Features.SendContactMessages;
+
+namespace StreamVibe.Application.Common.Mapper
 {
     public sealed class StreamProfile : Profile
     {
@@ -22,16 +24,19 @@
             .ForCtorParam("CharacterName", opt => opt.MapFrom(x => x.CharacterName));
             CreateMap<People, PersonDto>();
             CreateMap<Content, ContentDetailDto>()
-                .ForCtorParam("Genres", opt => opt.MapFrom(src => src.ContentGenres.Select(x => x.Genre)))
-                .ForCtorParam("Languages", opt => opt.MapFrom(src => src.ContentLanguages.Select(x => x.Language)))
-                .ForCtorParam("Casts", opt => opt.MapFrom(src => src.ContentPeople))
-                .ForCtorParam("Directors", opt => opt.MapFrom(src => src.ContentPeople.Where(d=>d.Type==RoleType.Director).Select(d => d.People)))
-                .ForCtorParam("Musics", opt => opt.MapFrom(src => src.ContentPeople.Where(m=>m.Type==RoleType.Music).Select(c => c.People)));
+            .ForCtorParam("Genres", opt => opt.MapFrom(src => src.ContentGenres.Select(x => x.Genre)))
+            .ForCtorParam("Languages", opt => opt.MapFrom(src => src.ContentLanguages.Select(x => x.Language)))
+            .ForCtorParam("Casts", opt => opt.MapFrom(src => src.ContentPeople))
+            .ForCtorParam("Directors", opt => opt.MapFrom(src => src.ContentPeople.Where(d => d.Type == RoleType.Director).Select(d => d.People)))
+            .ForCtorParam("Musics", opt => opt.MapFrom(src => src.ContentPeople.Where(m => m.Type == RoleType.Music).Select(c => c.People)));
             CreateMap<Episodes, EpisodeDto>();
             CreateMap<Seasons, SeasonDto>()
-                .ForCtorParam("Episodes", opt => opt.MapFrom(src => src.Episodes));
+            .ForCtorParam("Episodes", opt => opt.MapFrom(src => src.Episodes));
             CreateMap<Reviews, ContentReviewDto>();
             CreateMap<User, UserDto>();
+            CreateMap<ContactMessages, ContactMessageDto>()
+           .ForCtorParam("SuccessMessage", opt => opt.MapFrom(_ => string.Empty));
+            CreateMap<SendContactMessagesCommand, ContactMessages>();
         }
     }
 }

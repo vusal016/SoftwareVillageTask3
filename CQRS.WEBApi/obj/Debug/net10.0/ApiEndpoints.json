@@ -212,7 +212,7 @@
   {
     "ContainingType": "StreamVibe.WEBApi.Controllers.LandingPageController",
     "Method": "GetAllGenres",
-    "RelativePath": "api/LandingPage/genres    ",
+    "RelativePath": "api/LandingPage/genres",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -237,6 +237,22 @@
         "Name": "billing",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.SupportController",
+    "Method": "Contact",
+    "RelativePath": "api/Support/contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "StreamVibe.Application.Features.SendContactMessages.SendContactMessagesCommand",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

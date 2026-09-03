@@ -15,6 +15,7 @@
         DbSet<Reviews> Reviews { get; set; }
         DbSet <User> Users { get; set; }
         DbSet<RefreshToken> RefreshTokens { get; set; }
+        DbSet<ContactMessages> ContactMessages { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }

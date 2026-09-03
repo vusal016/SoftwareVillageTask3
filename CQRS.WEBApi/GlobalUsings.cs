@@ -24,6 +24,6 @@ global using StreamVibe.Domain.Exceptions;
 global using StreamVibe.Application.Features.GetRefreshToken;
 global using StreamVibe.Application.Features.Logout;
 global using StreamVibe.Application.Features.Profile;
-global using System.IdentityModel.Tokens.Jwt;
 global using System.Security.Claims;
 global using Microsoft.AspNetCore.Authorization;
+global using StreamVibe.Application.Features.SendContactMessages;
