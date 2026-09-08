@@ -16,6 +16,9 @@
         public DbSet<User> Users { get; set; }
         public DbSet<RefreshToken> RefreshTokens { get; set; }
         public DbSet<ContactMessages> ContactMessages { get; set; }
+        public DbSet<UserSubscription> UserSubscriptions { get; set; }
+        public DbSet<SubscriptionHistory> SubscriptionHistories { get; set; }
+        public DbSet<PlanFeatures> PlanFeatures { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

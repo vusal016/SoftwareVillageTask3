@@ -37,6 +37,11 @@ namespace StreamVibe.Application.Common.Mapper
             CreateMap<ContactMessages, ContactMessageDto>()
            .ForCtorParam("SuccessMessage", opt => opt.MapFrom(_ => string.Empty));
             CreateMap<SendContactMessagesCommand, ContactMessages>();
+            CreateMap<UserSubscription, UserSubscriptionDto>()
+            .ForCtorParam("Plan", opt => opt.MapFrom(src => src.PricingPlan));
+            CreateMap<PricingPlan, PricingPlanSubDto>();
+            CreateMap<UserSubscription, CreateSubDto>()
+            .ForCtorParam("Message", opt => opt.MapFrom(_ => "Subscription created successfully."));
         }
     }
 }

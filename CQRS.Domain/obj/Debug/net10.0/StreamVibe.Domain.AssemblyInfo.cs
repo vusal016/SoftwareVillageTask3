@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamVibe.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38d8248b8eee864733e6490111ffbd590649ca0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8013e0a7f5f278d726816ed014c606cdabfb1177")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamVibe.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamVibe.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

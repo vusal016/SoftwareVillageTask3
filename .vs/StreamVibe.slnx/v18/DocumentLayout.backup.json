@@ -3,36 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\profile\\commands\\createsubscriptioncommand\\createsubscriptionplancommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\profile\\commands\\createsubscriptioncommand\\createsubscriptionplancommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\usersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\usersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\subscriptionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\subscriptionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\profile\\commands\\createsubscriptioncommand\\createsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\profile\\commands\\createsubscriptioncommand\\createsubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.infrastructure\\configurations\\subscriptionhistoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|solutionrelative:cqrs.infrastructure\\configurations\\subscriptionhistoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.infrastructure\\configurations\\usersubscriptionconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E14E0118-F446-60B9-2841-2B5D9690EC92}|CQRS.Infrastructure\\StreamVibe.Infrastructure.csproj|solutionrelative:cqrs.infrastructure\\configurations\\usersubscriptionconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\profile\\commands\\deletesubscriptioncommand\\deletesubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\profile\\commands\\deletesubscriptioncommand\\deletesubscriptioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\profile\\commands\\deletesubscriptioncommand\\deletesubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\profile\\commands\\deletesubscriptioncommand\\deletesubscriptioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\profile\\queries\\getmysubscriptions\\getmysubscriptionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\profile\\queries\\getmysubscriptions\\getmysubscriptionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\usersubscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\usersubscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\pricingplansubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\pricingplansubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\mapper\\streamprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\mapper\\streamprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\sendcontactmessages\\sendcontactmessagescommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\sendcontactmessages\\sendcontactmessagescommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\sendcontactmessages\\sendcontactmessagescommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\sendcontactmessages\\sendcontactmessagescommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\entities\\contactmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\entities\\contactmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\createsubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\createsubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.webapi\\controllers\\landingpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E02F090-3D3E-91E0-2B6D-E72016F3F201}|CQRS.WEBApi\\StreamVibe.WEBApi.csproj|solutionrelative:cqrs.webapi\\controllers\\landingpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\profile\\queries\\getmysubscriptions\\getmysubscriptionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\profile\\queries\\getmysubscriptions\\getmysubscriptionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\common\\dtos\\pricingplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\common\\dtos\\pricingplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.domain\\enums\\usersubstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{212DE17D-DC9B-5ED2-284E-D15BB3E24E82}|CQRS.Domain\\StreamVibe.Domain.csproj|solutionrelative:cqrs.domain\\enums\\usersubstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|c:\\users\\user\\onedrive\\desktop\\software village\\streamvibetask\\cqrs.application\\features\\plans\\queries\\getplanswithfeautures\\getplanswithfeaturesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E166215-A983-D0BB-2521-4D6A27B1D350}|CQRS.Application\\StreamVibe.Application.csproj|solutionrelative:cqrs.application\\features\\plans\\queries\\getplanswithfeautures\\getplanswithfeaturesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +98,288 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GlobalUsings.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs",
-              "RelativeDocumentMoniker": "CQRS.WEBApi\\GlobalUsings.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs",
-              "RelativeToolTip": "CQRS.WEBApi\\GlobalUsings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SubscriptionHistory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\SubscriptionHistory.cs",
+              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\SubscriptionHistory.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\SubscriptionHistory.cs",
+              "RelativeToolTip": "CQRS.Domain\\Entities\\SubscriptionHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T07:12:06.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T06:51:22.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SupportController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\SupportController.cs",
-              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\SupportController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\SupportController.cs",
-              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\SupportController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T06:51:57.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactMessages.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\ContactMessages.cs",
-              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\ContactMessages.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\ContactMessages.cs",
-              "RelativeToolTip": "CQRS.Domain\\Entities\\ContactMessages.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAcwD4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T06:36:49.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SendContactMessagesCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommandHandler.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommandHandler.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommandHandler.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T06:18:50.698Z",
+              "WhenOpened": "2026-09-07T13:28:38.283Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StreamProfile.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "RelativeToolTip": "CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwCkAAAABAAAAAAAAAA==",
+              "Title": "CreateSubscriptionPlanCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionPlanCommandHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionPlanCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionPlanCommandHandler.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionPlanCommandHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA5wBMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T06:16:45.362Z",
+              "WhenOpened": "2026-09-07T13:05:26.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateSubscriptionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionCommand.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionCommand.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Profile\\Commands\\CreateSubscriptionCommand\\CreateSubscriptionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T11:47:01.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubscriptionsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\SubscriptionsController.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\SubscriptionsController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\SubscriptionsController.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\SubscriptionsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T15:02:07.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContactMessageDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\ContactMessageDto.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\ContactMessageDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\ContactMessageDto.cs",
-              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\ContactMessageDto.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "UserSubscription.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\UserSubscription.cs",
+              "RelativeDocumentMoniker": "CQRS.Domain\\Entities\\UserSubscription.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Entities\\UserSubscription.cs",
+              "RelativeToolTip": "CQRS.Domain\\Entities\\UserSubscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T06:13:53.732Z",
+              "WhenOpened": "2026-09-07T20:56:42.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SendContactMessagesCommand.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommand.cs",
-              "RelativeDocumentMoniker": "CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommand.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommand.cs",
-              "RelativeToolTip": "CQRS.Application\\Features\\SendContactMessages\\SendContactMessagesCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SubscriptionHistoryConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\SubscriptionHistoryConfigurations.cs",
+              "RelativeDocumentMoniker": "CQRS.Infrastructure\\Configurations\\SubscriptionHistoryConfigurations.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\SubscriptionHistoryConfigurations.cs",
+              "RelativeToolTip": "CQRS.Infrastructure\\Configurations\\SubscriptionHistoryConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-03T06:01:05.419Z",
+              "WhenOpened": "2026-09-08T08:24:56.546Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteSubscriptionCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommandHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommandHandler.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:37:51.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteSubscriptionCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommand.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommand.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommand.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Profile\\Commands\\DeleteSubscriptionCommand\\DeleteSubscriptionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:25:26.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserSubscriptionConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\UserSubscriptionConfigurations.cs",
+              "RelativeDocumentMoniker": "CQRS.Infrastructure\\Configurations\\UserSubscriptionConfigurations.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Infrastructure\\Configurations\\UserSubscriptionConfigurations.cs",
+              "RelativeToolTip": "CQRS.Infrastructure\\Configurations\\UserSubscriptionConfigurations.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:02:11.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetMySubscriptionsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQueryHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQueryHandler.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQueryHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:30:53.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserSubscriptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\UserSubscriptionDto.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\UserSubscriptionDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\UserSubscriptionDto.cs",
+              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\UserSubscriptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T15:56:53.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PricingPlanSubDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\PricingPlanSubDto.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\PricingPlanSubDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\PricingPlanSubDto.cs",
+              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\PricingPlanSubDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:00:50.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StreamProfile.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
+              "RelativeToolTip": "CQRS.Application\\Common\\Mapper\\StreamProfile.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T16:29:34.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateSubDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\CreateSubDto.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\CreateSubDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\CreateSubDto.cs",
+              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\CreateSubDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T07:26:12.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:40:42.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\GlobalUsings.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\GlobalUsings.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T17:03:29.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\ContentController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:34:19.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LandingPageController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "RelativeDocumentMoniker": "CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "RelativeToolTip": "CQRS.WEBApi\\Controllers\\LandingPageController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T20:34:24.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetMySubscriptionsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQuery.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQuery.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQuery.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Profile\\Queries\\GetMySubscriptions\\GetMySubscriptionsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T15:51:05.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PricingPlanDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\PricingPlanDto.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Common\\Dtos\\PricingPlanDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Common\\Dtos\\PricingPlanDto.cs",
+              "RelativeToolTip": "CQRS.Application\\Common\\Dtos\\PricingPlanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T15:55:22.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserSubStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Enums\\UserSubStatus.cs",
+              "RelativeDocumentMoniker": "CQRS.Domain\\Enums\\UserSubStatus.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Domain\\Enums\\UserSubStatus.cs",
+              "RelativeToolTip": "CQRS.Domain\\Enums\\UserSubStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T14:38:07.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetPlansWithFeaturesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Plans\\Queries\\GetPlansWithFeautures\\GetPlansWithFeaturesQueryHandler.cs",
+              "RelativeDocumentMoniker": "CQRS.Application\\Features\\Plans\\Queries\\GetPlansWithFeautures\\GetPlansWithFeaturesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\SOFTWARE VILLAGE\\StreamVibeTask\\CQRS.Application\\Features\\Plans\\Queries\\GetPlansWithFeautures\\GetPlansWithFeaturesQueryHandler.cs",
+              "RelativeToolTip": "CQRS.Application\\Features\\Plans\\Queries\\GetPlansWithFeautures\\GetPlansWithFeaturesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T13:05:57.215Z"
             }
           ]
         }

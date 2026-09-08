@@ -73,7 +73,7 @@
         private void SetType(ContentType type)
         {
             if (!Enum.IsDefined(type))
-                throw new ArgumentException("Invalid genre type");
+                throw new ArgumentException("Invalid content type");
             Type = type;
         }
         private void SetReleaseYear(int releaseYear)

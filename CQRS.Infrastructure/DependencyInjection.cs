@@ -12,6 +12,9 @@
                          o.MapEnum<GenreType>("type_genre", "public");
                          o.MapEnum<ContentType>("type_content", "public");
                          o.MapEnum<RoleType>("type_content_people", "public");
+                         o.MapEnum<UserBillingCycle>("user_billing_cycle", "public");
+                         o.MapEnum<UserSubStatus>("user_substatus", "public");  
+                         o.MapEnum<HistorySubStatus>("history_substatus", "public");
                      }
                    )
              );

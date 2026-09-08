@@ -19,6 +19,9 @@
         public decimal PriceMonthly { get; private set; }
         public decimal PriceYearly { get; private set; }
         public bool IsPopular { get; private set; }
+        public ICollection<UserSubscription> UserSubscriptions { get; private set; } = [];
+        public ICollection<SubscriptionHistory> SubscriptionHistories { get; private set; } = [];
+        public ICollection<PlanFeatures> PlanFeatures { get; private set; } = [];
 
         private void SetName(string name)
         {

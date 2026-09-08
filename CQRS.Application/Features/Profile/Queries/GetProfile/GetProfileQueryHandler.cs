@@ -1,4 +1,4 @@
-﻿namespace StreamVibe.Application.Features.Profile
+﻿namespace StreamVibe.Application.Features.Profile.Queries.GetProfile
 {
     public sealed class GetProfileQueryHandler(IStreamDb streamDb,IMapper mapper) : IRequestHandler<GetProfileQuery, UserDto>
     {

@@ -22,6 +22,8 @@
         public DateTime CreatedAt { get; private set; }
         public DateTime UpdatedAt { get; private set; }
         public ICollection<RefreshToken> RefreshTokens { get; private set; } = [];
+        public ICollection<UserSubscription> UserSubscriptions { get; private set; } = [];
+        public ICollection<SubscriptionHistory> SubscriptionHistories { get; private set; } = [];
 
         private void SetUserName(string userName)
         {

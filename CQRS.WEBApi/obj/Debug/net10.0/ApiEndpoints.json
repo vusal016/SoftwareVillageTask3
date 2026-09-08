@@ -242,6 +242,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.SubscriptionsController",
+    "Method": "CancelSubscription",
+    "RelativePath": "api/Subscriptions/cancel",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.SubscriptionsController",
+    "Method": "GetMySubscription",
+    "RelativePath": "api/Subscriptions/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.SubscriptionsController",
+    "Method": "GetAllPricingPlans",
+    "RelativePath": "api/Subscriptions/plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "billing",
+        "Type": "StreamVibe.Domain.Enums.UserBillingCycle",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StreamVibe.WEBApi.Controllers.SubscriptionsController",
+    "Method": "CreateSubscription",
+    "RelativePath": "api/Subscriptions/subscribe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "StreamVibe.Application.Features.Profile.Commands.CreateSubscriptionCommand.CreateSubscriptionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "StreamVibe.WEBApi.Controllers.SupportController",
     "Method": "Contact",
     "RelativePath": "api/Support/contact",

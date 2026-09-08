@@ -16,6 +16,9 @@
         DbSet <User> Users { get; set; }
         DbSet<RefreshToken> RefreshTokens { get; set; }
         DbSet<ContactMessages> ContactMessages { get; set; }
+        DbSet<UserSubscription> UserSubscriptions { get; set; }
+        DbSet<SubscriptionHistory> SubscriptionHistories { get; set; }
+        DbSet<PlanFeatures> PlanFeatures { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }

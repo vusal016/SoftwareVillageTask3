@@ -377,6 +377,83 @@
         }
       }
     },
+    "/api/Subscriptions/plans": {
+      "get": {
+        "tags": [
+          "Subscriptions"
+        ],
+        "parameters": [
+          {
+            "name": "billing",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/UserBillingCycle"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Subscriptions/subscribe": {
+      "post": {
+        "tags": [
+          "Subscriptions"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSubscriptionCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSubscriptionCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSubscriptionCommand"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Subscriptions/my": {
+      "get": {
+        "tags": [
+          "Subscriptions"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Subscriptions/cancel": {
+      "delete": {
+        "tags": [
+          "Subscriptions"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Support/contact": {
       "post": {
         "tags": [
@@ -414,6 +491,31 @@
     "schemas": {
       "ContentType": {
         "type": "integer"
+      },
+      "CreateSubscriptionCommand": {
+        "required": [
+          "userId",
+          "planId",
+          "billingCycle",
+          "isTrial"
+        ],
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "planId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "billingCycle": {
+            "$ref": "#/components/schemas/UserBillingCycle"
+          },
+          "isTrial": {
+            "type": "boolean"
+          }
+        }
       },
       "GenreType": {
         "type": "integer"
@@ -504,6 +606,9 @@
             "type": "string"
           }
         }
+      },
+      "UserBillingCycle": {
+        "type": "integer"
       }
     }
   },
@@ -516,6 +621,9 @@
     },
     {
       "name": "LandingPage"
+    },
+    {
+      "name": "Subscriptions"
     },
     {
       "name": "Support"
