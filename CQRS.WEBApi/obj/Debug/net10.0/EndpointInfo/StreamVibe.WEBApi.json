@@ -485,6 +485,18 @@
           }
         }
       }
+    },
+    "/api/Users/profile": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -627,6 +639,9 @@
     },
     {
       "name": "Support"
+    },
+    {
+      "name": "Users"
     }
   ]
 }

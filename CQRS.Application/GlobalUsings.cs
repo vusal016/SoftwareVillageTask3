@@ -9,3 +9,4 @@ global using Microsoft.Extensions.DependencyInjection;
 global using StreamVibe.Application.Common.Mapper;
 global using StreamVibe.Domain.Enums;
 global using StreamVibe.Domain.Exceptions;
+global using StreamVibe.Application.Features.SendContactMessages;

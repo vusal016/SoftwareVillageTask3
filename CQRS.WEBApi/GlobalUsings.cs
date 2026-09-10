@@ -31,3 +31,6 @@ global using StreamVibe.Application.Features.Profile.Commands.CreateSubscription
 global using StreamVibe.Application.Features.Profile.Queries.GetMySubscriptions;
 global using StreamVibe.Application.Features.Profile.Queries.GetProfile;
 global using StreamVibe.Application.Features.Profile.Commands.DeleteSubscriptionCommand;
+global using Microsoft.OpenApi;
+global using System.Reflection;
+global using Swashbuckle.AspNetCore.SwaggerGen;

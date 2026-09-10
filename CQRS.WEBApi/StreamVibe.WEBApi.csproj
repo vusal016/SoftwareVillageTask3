@@ -2,10 +2,16 @@
 
   <PropertyGroup>
     <UserSecretsId>8cead553-c87b-4d92-888d-168f9a616588</UserSecretsId>
+	  
+	    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+	  
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Microsoft.OpenApi" />
   </ItemGroup>
 
   <ItemGroup>

@@ -37,7 +37,7 @@
         public async Task<IActionResult> GetMe(CancellationToken ct)
         {
             var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
-            var result = await mediator.Send(new GetProfileQuery(userId), ct);
+            var result = await mediator.Send(new GetMeQuery(userId), ct);
             var response = Response<UserDto>.Success(result, 200);
             return Ok(response);
         }

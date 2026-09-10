@@ -1,6 +1,4 @@
-﻿using StreamVibe.Application.Features.SendContactMessages;
-
-namespace StreamVibe.Application.Common.Mapper
+﻿namespace StreamVibe.Application.Common.Mapper
 {
     public sealed class StreamProfile : Profile
     {
@@ -42,6 +40,25 @@ namespace StreamVibe.Application.Common.Mapper
             CreateMap<PricingPlan, PricingPlanSubDto>();
             CreateMap<UserSubscription, CreateSubDto>()
             .ForCtorParam("Message", opt => opt.MapFrom(_ => "Subscription created successfully."));
+            CreateMap<PricingPlan, PricingPlanProfileDto>()
+            .ForCtorParam("Id", opt => opt.MapFrom(src => src.Id))
+            .ForCtorParam("Name", opt => opt.MapFrom(src => src.Name))
+            .ForCtorParam("Price", opt => opt.MapFrom(src => src.PriceMonthly));
+            CreateMap<UserSubscription, ProfileSubDto>()
+                 .ForCtorParam("Id", opt => opt.MapFrom(src => src.Id))
+                 .ForCtorParam("BillingCycle", opt => opt.MapFrom(src => src.BillingCycle))
+                 .ForCtorParam("IsTrial", opt => opt.MapFrom(src => src.IsTrial))
+                 .ForCtorParam("Status", opt => opt.MapFrom(src => src.Status))
+                 .ForCtorParam("StartedAt", opt => opt.MapFrom(src => src.StartedAt))
+                 .ForCtorParam("ExpiresAt", opt => opt.MapFrom(src => src.ExpiresAt))
+                 .ForCtorParam("Plan", opt => opt.MapFrom(src => src.PricingPlan));
+            CreateMap<User, ProfileDto>()
+                 .ForCtorParam("User", opt => opt.MapFrom(src => src))
+                 .ForCtorParam("Subscription", opt => opt.MapFrom(src =>
+                     src.UserSubscriptions
+                         .Where(s => s.Status == UserSubStatus.Active)
+                         .Select(s => s)
+                         .FirstOrDefault()));
         }
     }
 }

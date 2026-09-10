@@ -21,4 +21,3 @@ C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\bin\D
 C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.dll
 C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\bin\Debug\net10.0\StreamVibe.Domain.pdb
 C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\ref\StreamVibe.Domain.dll
-C:\Users\User\OneDrive\Desktop\SOFTWARE VILLAGE\StreamVibeTask\CQRS.Domain\obj\Debug\net10.0\StreamVi.9ADC604B.Up2Date
