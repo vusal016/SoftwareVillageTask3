@@ -1,52 +1,61 @@
+```markdown
 # 🍿 StreamVibe API
 
-**.NET 10 ASP.NET Core Web API** for a streaming platform built on **Onion / Clean Architecture** — catalog content retrieval, JWT authentication, user subscription management, role-based pricing plans, and MediatR-powered CQRS work out of the box to provide a robust foundation for modern streaming clients.
+A production-oriented **ASP.NET Core (.NET 10) Web API** built on **Onion / Clean Architecture** — catalog content retrieval, JWT authentication, user subscription management, role-based pricing plans, and MediatR-powered CQRS work out of the box, so every new streaming project starts from decisions already made.
+
+![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-Web%20API-512BD4)
+![EF Core](https://img.shields.io/badge/EF%20Core-10.0-6C3483)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)
+![JWT Bearer](https://img.shields.io/badge/Auth-JWT%20Bearer-F7B93E)
+![Swagger](https://img.shields.io/badge/API%20Docs-Swagger-85EA2D?logo=swagger&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-2ea44f)
 
 ---
 
 ## 📑 Table of Contents
 
-* [Overview](https://www.google.com/search?q=%23-overview)
-* [Features](https://www.google.com/search?q=%23-features)
-* [Tech Stack](https://www.google.com/search?q=%23-tech-stack)
-* [Architecture](https://www.google.com/search?q=%23-architecture)
-* [Solution Structure](https://www.google.com/search?q=%23-solution-structure)
-* [Key Design Decisions](https://www.google.com/search?q=%23-key-design-decisions)
-* [API Endpoints](https://www.google.com/search?q=%23-api-endpoints)
-* [Getting Started](https://www.google.com/search?q=%23-getting-started)
-* [License](https://www.google.com/search?q=%23-license)
-* [Author](https://www.google.com/search?q=%23-author)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Solution Structure](#-solution-structure)
+- [Key Design Decisions](#-key-design-decisions)
+- [API Endpoints](#-api-endpoints)
+- [Getting Started](#-getting-started)
+- [License](#-license)
+- [Author](#-author)
 
 ---
 
 ## 📖 Overview
 
-`StreamVibe` is organized as a four-project solution using an Onion/Clean Architecture layout. The goal is a **clean, scalable backend** where cross-cutting concerns, caching, and data access have been deliberately structured:
+`StreamVibe` is a reference backend designed to be **cloned, run and extended**. The goal is not just a working REST API — it is a foundation where the expensive part of every new project (architecture decisions) has already been made once, deliberately:
 
-* Dependencies flow strictly **inward** — the Domain (`CQRS.Domain`) depends on nothing.
-* The application uses **MediatR** to dispatch application requests from controllers to their handlers following the CQRS pattern.
-* The Application layer accesses the database through an `IStreamDb` abstraction, which exposes Entity Framework Core `DbSet<T>` properties.
-* Robust JWT Bearer authentication protects profile and subscription endpoints while allowing anonymous access to catalog queries.
+- Dependencies flow strictly **inward** — the Domain (`CQRS.Domain`) depends on nothing.
+- Application logic is isolated into explicit use cases via **MediatR (CQRS)**, not scattered across monolithic services.
+- Errors are **designed**: exceptions are translated centrally by a global middleware.
+- Entities protect their own invariants — no anemic models with public setters.
 
 ---
 
 ## ✨ Features
 
-* 🎬 **Content catalog queries** — dedicated endpoints for general content, hero content, top-ten content, seasons, reviews, and detailed content views.
-* 📱 **Landing page resources** — fetch supported devices, genres, FAQs, and pricing plans (with monthly/yearly options).
-* 🔐 **JWT Bearer authentication** — secure user registration, login, refresh-token support, logout, and authenticated user info retrieval.
-* 💳 **Subscription management** — self-service subscription creation, current-subscription retrieval, and cancellation.
-* ⚡ **FusionCache integration** — 5-minute cache duration for configured application queries to reduce PostgreSQL database load.
-* 🚨 **Global exception middleware** — centralized exception-to-status-code handling (`UnauthorizedAccessException` → 401, `KeyNotFoundException` → 404).
-* 📦 **Unified `Response<T>` envelope** — every endpoint returns the same JSON shape (`data`, `isSuccess`, `statusCode`, `errors`).
-* 🧬 **Rich domain entities** — state is protected with private setters and constructor validation (e.g., `Content`, `PricingPlan`, `UserSubscription`).
+- 🎬 **Content catalog queries** — dedicated endpoints for general content, hero content, top-ten content, seasons, reviews, and detailed content views.
+- 📱 **Landing page resources** — fetch supported devices, genres, FAQs, and pricing plans (with monthly/yearly options).
+- 🔐 **JWT Bearer authentication** — secure user registration, login, refresh-token support, logout, and authenticated user info retrieval.
+- 💳 **Subscription management** — self-service subscription creation, current-subscription retrieval, and cancellation.
+- ⚡ **FusionCache integration** — 5-minute cache duration for configured application queries to reduce PostgreSQL database load.
+- 🚨 **Global exception middleware** — centralized exception-to-status-code handling (`UnauthorizedAccessException` → 401, `KeyNotFoundException` → 404).
+- 📦 **Unified `Response<T>` envelope** — every endpoint returns the same JSON shape (`data`, `isSuccess`, `statusCode`, `errors`).
+- 🧬 **Rich domain entities** — state is protected with private setters and constructor validation (e.g., `Content`, `PricingPlan`, `UserSubscription`).
 
 ---
 
 ## 🧰 Tech Stack
 
 | Layer | Technology |
-| --- | --- |
+|---|---|
 | Framework | ASP.NET Core Web API (.NET 10) |
 | Application Pattern | CQRS with MediatR |
 | Data Access | Entity Framework Core 10 · PostgreSQL (Npgsql) |
@@ -115,13 +124,15 @@ StreamVibeTask/
 
 **CQRS with MediatR.** Application requests and handlers are organized strictly by feature rather than generic services. Content queries, user registration, and profile commands are isolated, allowing dependencies like `IStreamDb`, AutoMapper, and FusionCache to be injected precisely where needed.
 
-**No separate Repository pattern.** The project avoids introducing a ceremonial generic repository layer. Instead, handlers use the `IStreamDb` database abstraction, which exposes Entity Framework Core `DbSet<T>` properties. `StreamDb` implements that abstraction in the Infrastructure project.
+**No hand-rolled repository.** EF Core's `DbSet` already implements the repository / unit-of-work patterns. The `IStreamDb` interface keeps the Application layer decoupled without ceremonial abstraction — knowing when *not* to apply a pattern is part of the design.
 
-**Caching via FusionCache.** Rather than hitting the database for highly accessed static data, query handlers for content, plans, and genres utilize FusionCache with a default 5-minute duration.
+**DDD style — with honest boundaries.** No aggregates or bounded contexts are claimed at this scale. What is applied is the tactical side: private setters, guarded constructors, and validation logic. The ORM gets a parameterless constructor for hydration; application code must go through the validated path.
 
-**JWT Bearer Authentication.** JWT bearer authentication is registered by Infrastructure. Tokens include subject, email, and username claims. Authenticated controllers obtain the current user ID natively from `ClaimTypes.NameIdentifier`.
+**Identity comes from the token, not the route.** All self-service subscription and profile endpoints resolve the user via `ClaimTypes.NameIdentifier` from the JWT. A route-supplied id is insecure; the token says who you are — you don't get to choose.
 
-**Exception-driven error semantics.** The Application layer throws standard .NET exceptions (`ArgumentException`, `KeyNotFoundException`, `UnauthorizedAccessException`). The `GlobalExceptionHandler` middleware maps these directly to HTTP status codes (400, 404, 401), ensuring no HTTP logic leaks into the Application layer.
+**Strict token expiry.** JWT validation uses `ClockSkew = TimeSpan.Zero` — no default 5-minute grace window; expired means expired.
+
+**Exception-driven error semantics.** The Application layer throws standard .NET exceptions (`ArgumentException`, `KeyNotFoundException`, `UnauthorizedAccessException`). The global middleware is only a translator mapping these directly to HTTP status codes (400, 404, 401) — no HTTP concepts leak into the CQRS handlers.
 
 ---
 
@@ -189,7 +200,7 @@ Every response uses the same unified shape:
 **Prerequisites:** .NET 10 SDK · PostgreSQL instance
 
 ```bash
-git clone https://github.com/vusal016/StreamVibe.git
+git clone [https://github.com/vusal016/StreamVibe.git](https://github.com/vusal016/StreamVibe.git)
 cd StreamVibe
 dotnet run --project CQRS.WEBApi/StreamVibe.WEBApi.csproj
 
@@ -226,3 +237,7 @@ MIT — free to use, modify, and build upon.
 ## 👤 Author
 
 **Vusal Mammadov** — .NET Backend Developer
+
+```
+
+```
