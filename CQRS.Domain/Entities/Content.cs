@@ -1,4 +1,4 @@
-﻿namespace StreamVibe.Domain.Entities
+﻿    namespace StreamVibe.Domain.Entities
 {
     public sealed class Content:BaseEntity
     {
