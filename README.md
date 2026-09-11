@@ -1,30 +1,21 @@
-```markdown
 # 🍿 StreamVibe API
 
 A production-oriented **ASP.NET Core (.NET 10) Web API** built on **Onion / Clean Architecture** — catalog content retrieval, JWT authentication, user subscription management, role-based pricing plans, and MediatR-powered CQRS work out of the box, so every new streaming project starts from decisions already made.
-
-![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-Web%20API-512BD4)
-![EF Core](https://img.shields.io/badge/EF%20Core-10.0-6C3483)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql&logoColor=white)
-![JWT Bearer](https://img.shields.io/badge/Auth-JWT%20Bearer-F7B93E)
-![Swagger](https://img.shields.io/badge/API%20Docs-Swagger-85EA2D?logo=swagger&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-2ea44f)
 
 ---
 
 ## 📑 Table of Contents
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Solution Structure](#-solution-structure)
-- [Key Design Decisions](#-key-design-decisions)
-- [API Endpoints](#-api-endpoints)
-- [Getting Started](#-getting-started)
-- [License](#-license)
-- [Author](#-author)
+* [Overview](https://www.google.com/search?q=%23-overview)
+* [Features](https://www.google.com/search?q=%23-features)
+* [Tech Stack](https://www.google.com/search?q=%23-tech-stack)
+* [Architecture](https://www.google.com/search?q=%23-architecture)
+* [Solution Structure](https://www.google.com/search?q=%23-solution-structure)
+* [Key Design Decisions](https://www.google.com/search?q=%23-key-design-decisions)
+* [API Endpoints](https://www.google.com/search?q=%23-api-endpoints)
+* [Getting Started](https://www.google.com/search?q=%23-getting-started)
+* [License](https://www.google.com/search?q=%23-license)
+* [Author](https://www.google.com/search?q=%23-author)
 
 ---
 
@@ -32,30 +23,30 @@ A production-oriented **ASP.NET Core (.NET 10) Web API** built on **Onion / Clea
 
 `StreamVibe` is a reference backend designed to be **cloned, run and extended**. The goal is not just a working REST API — it is a foundation where the expensive part of every new project (architecture decisions) has already been made once, deliberately:
 
-- Dependencies flow strictly **inward** — the Domain (`CQRS.Domain`) depends on nothing.
-- Application logic is isolated into explicit use cases via **MediatR (CQRS)**, not scattered across monolithic services.
-- Errors are **designed**: exceptions are translated centrally by a global middleware.
-- Entities protect their own invariants — no anemic models with public setters.
+* Dependencies flow strictly **inward** — the Domain (`CQRS.Domain`) depends on nothing.
+* Application logic is isolated into explicit use cases via **MediatR (CQRS)**, not scattered across monolithic services.
+* Errors are **designed**: exceptions are translated centrally by a global middleware.
+* Entities protect their own invariants — no anemic models with public setters.
 
 ---
 
 ## ✨ Features
 
-- 🎬 **Content catalog queries** — dedicated endpoints for general content, hero content, top-ten content, seasons, reviews, and detailed content views.
-- 📱 **Landing page resources** — fetch supported devices, genres, FAQs, and pricing plans (with monthly/yearly options).
-- 🔐 **JWT Bearer authentication** — secure user registration, login, refresh-token support, logout, and authenticated user info retrieval.
-- 💳 **Subscription management** — self-service subscription creation, current-subscription retrieval, and cancellation.
-- ⚡ **FusionCache integration** — 5-minute cache duration for configured application queries to reduce PostgreSQL database load.
-- 🚨 **Global exception middleware** — centralized exception-to-status-code handling (`UnauthorizedAccessException` → 401, `KeyNotFoundException` → 404).
-- 📦 **Unified `Response<T>` envelope** — every endpoint returns the same JSON shape (`data`, `isSuccess`, `statusCode`, `errors`).
-- 🧬 **Rich domain entities** — state is protected with private setters and constructor validation (e.g., `Content`, `PricingPlan`, `UserSubscription`).
+* 🎬 **Content catalog queries** — dedicated endpoints for general content, hero content, top-ten content, seasons, reviews, and detailed content views.
+* 📱 **Landing page resources** — fetch supported devices, genres, FAQs, and pricing plans (with monthly/yearly options).
+* 🔐 **JWT Bearer authentication** — secure user registration, login, refresh-token support, logout, and authenticated user info retrieval.
+* 💳 **Subscription management** — self-service subscription creation, current-subscription retrieval, and cancellation.
+* ⚡ **FusionCache integration** — 5-minute cache duration for configured application queries to reduce PostgreSQL database load.
+* 🚨 **Global exception middleware** — centralized exception-to-status-code handling (`UnauthorizedAccessException` → 401, `KeyNotFoundException` → 404).
+* 📦 **Unified `Response<T>` envelope** — every endpoint returns the same JSON shape (`data`, `isSuccess`, `statusCode`, `errors`).
+* 🧬 **Rich domain entities** — state is protected with private setters and constructor validation (e.g., `Content`, `PricingPlan`, `UserSubscription`).
 
 ---
 
 ## 🧰 Tech Stack
 
 | Layer | Technology |
-|---|---|
+| --- | --- |
 | Framework | ASP.NET Core Web API (.NET 10) |
 | Application Pattern | CQRS with MediatR |
 | Data Access | Entity Framework Core 10 · PostgreSQL (Npgsql) |
@@ -200,7 +191,7 @@ Every response uses the same unified shape:
 **Prerequisites:** .NET 10 SDK · PostgreSQL instance
 
 ```bash
-git clone [https://github.com/vusal016/StreamVibe.git](https://github.com/vusal016/StreamVibe.git)
+git clone https://github.com/vusal016/StreamVibe.git
 cd StreamVibe
 dotnet run --project CQRS.WEBApi/StreamVibe.WEBApi.csproj
 
@@ -237,7 +228,3 @@ MIT — free to use, modify, and build upon.
 ## 👤 Author
 
 **Vusal Mammadov** — .NET Backend Developer
-
-```
-
-```
