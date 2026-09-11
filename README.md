@@ -1,6 +1,6 @@
 # 🍿 StreamVibe API
 
-A **.NET 10 ASP.NET Core Web API** for a streaming platform built on **Onion / Clean Architecture** — catalog content retrieval, JWT authentication, user subscription management, role-based pricing plans, and MediatR-powered CQRS work out of the box to provide a robust foundation for modern streaming clients.
+**.NET 10 ASP.NET Core Web API** for a streaming platform built on **Onion / Clean Architecture** — catalog content retrieval, JWT authentication, user subscription management, role-based pricing plans, and MediatR-powered CQRS work out of the box to provide a robust foundation for modern streaming clients.
 
 ---
 
